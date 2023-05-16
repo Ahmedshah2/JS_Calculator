@@ -14,3 +14,6 @@ function getResult() {
 function delVal() {
     document.getElementById('result').value = document.getElementById('result').value.slice(0,result.length-1);
 }
+function square() {
+    document.getElementById("result").value = document.getElementById("result").value * document.getElementById("result").value;
+}
